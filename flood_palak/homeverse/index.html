@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flood Mangement</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="/homeverse/assets/images/2.jpg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/8054f3c9b5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-top">
+        <div class="container">
+          <ul class="header-top-list">
+            <li>
+              <a href="mailto:info@homeverse.com" class="header-top-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>Palak@gmail.com</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.bing.com/search?q=lovely+professional+university+location&filters=dtbk:%22MCFsb2NhdGlvbiFsb2NhdGlvbiFlZTdkMDE5Ny1hNzA3LWY5MjctMjFjOS0xMjA1YzQyOGI0NDQ%3d%22&FORM=DEPNAV" target="_blank" class="header-top-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>LPU,Phagwara,Punjab</address>
+              </a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <ul class="header-top-social-list">
+              <li>
+                <a href="https://www.facebook.com/Palak/" target="_blank" class="header-top-social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/palakkumarya6" target=" _blank" class="header-top-social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/palak_ydv_/" target="_blank" class="header-top-social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              
+            </ul>
+
+            <button class="header-top-btn">
+              <a href="#" target="_blank" class="read-more-btn">
+                More Info
+              </a>
+              
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/2.jpg"
+              width="68vh"
+              alt="Homeverse logo"
+            />
+          </a>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.png" alt="Homeverse logo" />
+              </a>
+
+              <button
+                class="nav-close-btn"
+                data-nav-close-btn
+                aria-label="Close Menu"
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <div class="navbar-bottom">
+              <ul class="navbar-list">
+                <li>
+                  <a href="#home" class="navbar-link" data-nav-link
+                    >Home</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#about" class="navbar-link" data-nav-link>Flood</a>
+                </li>
+
+                <li>
+                  <a href="#service" class="navbar-link" data-nav-link
+                    >Types</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#property" class="navbar-link" data-nav-link
+                    >Team</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#blog" class="navbar-link" data-nav-link
+                    >Blog</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#contact" class="navbar-link" data-nav-link
+                    >contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="header-bottom-actions">
+            <button class="header-bottom-actions-btn" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+
+              <span>Search</span>
+            </button>
+
+            <button class="header-bottom-actions-btn" aria-label="Profile">
+              <ion-icon name="person-outline"></ion-icon>
+
+              <span>Profile</span>
+            </button>
+
+            <button class="header-bottom-actions-btn" aria-label="Cart">
+              <ion-icon name="cart-outline"></ion-icon>
+
+              <span>Cart</span>
+            </button>
+
+            <button
+              class="header-bottom-actions-btn"
+              data-nav-open-btn
+              aria-label="Open Menu"
+            >
+              <ion-icon name="menu-outline"></ion-icon>
+
+              <span>Menu</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">
+                <ion-icon name="pen"></ion-icon>
+
+                <span
+                  ><i
+                    class="fa-sharp fa-solid fa-triangle-exclamation"
+                    style="color: #eecb4d"
+                  ></i>
+                  Attention: This content originates from the internet. Verify
+                  information independently for accuracy and authenticity.</span
+                >
+              </p>
+
+              <h2 class="h1 hero-title">Flood forecasting and Warning</h2>
+
+              <p class="hero-text">
+                Flooding is a temporary overflow of water onto land that is
+                normally dry. Floods are the most common disaster in the United
+                States. Failing to evacuate flooded areas or entering flood
+                waters can lead to injury or death.
+              </p>
+
+              <a href="ex1.html" target="_blank">
+                <button class="btn">More Info..</button>
+              </a>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/1.jpg"
+                alt="Modern house model"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img src="./assets/images/3.png" alt="House interior" />
+
+              <img
+                src="./assets/images/4.png"
+                alt="House interior"
+                class="abs-img"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">Lhonak Lake in state of Sikkim</p>
+
+              <h2 class="h2 section-title">
+                India floods: 14 killed and 102 missing after lake overflows and
+                highways washed away
+              </h2>
+
+              <p class="about-text">
+                At least 14 people have been killed and 102 are still missing in
+                the north-east Indian state of Sikkim after heavy rain caused a
+                glacial lake to burst its banks, triggering flash floods down a
+                mountain valley.
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">Damages to personal property</p>
+                </li>
+
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="leaf-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">New waterborne diseases</p>
+                </li>
+
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="wine-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">Threaten lives</p>
+                </li>
+
+                <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  </div>
+
+                  <p class="about-item-text">
+                    Disrupts economic processes and causes a food shortage
+                  </p>
+                </li>
+              </ul>
+
+              <p class="callout">
+                "In the silence of a flood's aftermath, the tears of lost homes
+                and shattered lives speak volumes of sorrow."
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                -palak
+              </p>
+
+              <a href="https://www.ndtv.com/india-news/10-dead-82-missing-14-bridges-collapsed-in-sikkim-flash-flood-4450410" target="_blank" class="btn">Read News</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="service" id="service">
+          <div class="container">
+            <p class="section-subtitle">__Palak__</p>
+
+            <h2 class="h2 section-title">Types of floods</h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/flash_1.jpg"
+                      width="50%"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"
+                      >Get swept away by the dynamic rush of creativity with
+                      Flash Flood – where every pixel surges with animated
+                      brilliance!"</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Flash floods are sudden, rapid-onset floods that typically
+                    occur within a few hours of intense rainfall or the sudden
+                    release of water, such as when a dam or levee breaks. These
+                    floods are characterized by their fast-moving water, which
+                    can rise quickly, inundating areas with little warning.
+                  </p>
+
+                  <a href="new1.html" class="card-link">
+                    <span>Read More</span>
+
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/river_11.jpg"
+                      width="53%"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"
+                      >Nature's unstoppable force transforms tranquil rivers
+                      into powerful torrents, shaping landscapes and lives with
+                      its relentless flood.</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    A river flood refers to the overflow of water from a river
+                    or stream onto adjacent land areas, typically caused by
+                    heavy rainfall, rapid snowmelt, ice jams, or a combination
+                    of these factors. This inundation of water can result in the
+                    temporary submersion of nearby homes, businesses,
+                    infrastructure, and agricultural land.
+                  </p>
+
+                  <a href="new3.html" class="card-link">
+                    <span>Read More</span>
+
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/costal.jpg"
+                      width="50%"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">
+                      As the ocean's fury meets the land, a coastal flood
+                      unveils nature's raw power, reshaping shores and stirring
+                      awe in its wake.</a>
+                    
+                  </h3>
+
+                  <p class="card-text">
+                    A coastal flood is a type of flooding event 
+                    that occurs when water from the ocean or other 
+                    bodies of water inundates low-lying coastal areas, 
+                    often as a result of storm surges, or extreme 
+                    weather events. Coastal floods can lead to the temporary
+                     submersion of coastal land, infrastructure, and communities, 
+                    posing risks to property and the environment.
+                  </p>
+
+                  <a href="new2.html" class="card-link">
+                    <span>Read More</span>
+
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PROPERTY
+      -->
+
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="features">
+          <div class="container">
+            <p class="section-subtitle">Responsibility towards Floods</p>
+
+            <h2 class="h2 section-title">Stay above water, Stay informed, Stay safe</h2>
+
+            <ul class="features-list">
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                      
+                  </div>
+
+                  <h3 class="card-title">Evacuation</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="card-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Awareness</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Peparation</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Communication</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Shelter</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="stop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Caution</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="football-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Avoidance</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="features-card">
+                  <div class="card-icon">
+                    <ion-icon name="laptop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Assistance,</h3>
+
+                  <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="blog" id="blog">
+          <div class="container">
+            <p class="section-subtitle">News </p>
+
+            <h2 class="h2 section-title">Leatest News Feeds</h2>
+
+            <ul class="blog-list has-scrollbar">
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/news_!.avif"
+                      alt="Flood_1"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-content-top">
+                      <ul class="card-meta-list">
+                        <li>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="person"></ion-icon>
+
+                            <span>by: Koushal</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="pricetags"></ion-icon>
+
+                            <span>The Times of India</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <h3 class="h3 blog-title">
+                        <a href="#"
+                          >Rain in the last 24 hours caused devastation and flooding across Punjab's</a
+                        >
+                      </h3>
+                    </div>
+
+                    <div class="blog-content-bottom">
+                      <div class="publish-date">
+                        <ion-icon name="calendar"></ion-icon>
+
+                        <time datetime="2022-27-04">JUN 10, 2023</time>
+                      </div>
+
+                      <a href="https://timesofindia.indiatimes.com/city/chandigarh/sea-of-water-in-land-of-5-rivers/articleshow/101625483.cms" target="_blank" class="read-more-btn">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/news_2.webp"
+                      alt="Recent Commercial Real Estate Transactions"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-content-top">
+                      <ul class="card-meta-list">
+                        <li>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="person"></ion-icon>
+
+                            <span>by: Astha</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="pricetags"></ion-icon>
+
+                            <span>India Today</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <h3 class="h3 blog-title">
+                        <a href="#"
+                          >Several parts of Tamil Nadu face flood-like situation after rainfall </a
+                        >
+                      </h3>
+                    </div>
+
+                    <div class="blog-content-bottom">
+                      <div class="publish-date">
+                        <ion-icon name="calendar"></ion-icon>
+
+                        <time datetime="2022-27-04">Dec 21, 2023</time>
+                      </div>
+
+                      <a href="https://www.indiatoday.in/india/video/tamil-nadu-floods-like-situation-after-incessant-rainfall-mk-stalin-tirunelveli-tuticorin-2478641-2023-12-21" target="_blank" class="read-more-btn">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/news_3.avif"
+                      alt="Renovating a Living Room? Experts Share Their Secrets"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-content-top">
+                      <ul class="card-meta-list">
+                        <li>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="person"></ion-icon>
+
+                            <span>by: Tarun Jindala</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="#" class="card-meta-link">
+                            <ion-icon name="pricetags"></ion-icon>
+
+                            <span>The Hindu</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <h3 class="h3 blog-title">
+                        <a href="#"
+                          >Over 300 villages in 13 Uttar Pradesh districts affected by floods</a
+                        >
+                      </h3>
+                    </div>
+
+                    <div class="blog-content-bottom">
+                      <div class="publish-date">
+                        <ion-icon name="calendar"></ion-icon>
+
+                        <time datetime="2022-27-04">July 24, 2023 </time>
+                      </div>
+
+                      <a href="https://www.thehindu.com/news/national/other-states/over-300-villages-in-13-uttar-pradesh-districts-affected-by-floods/article67113878.ece" target="_blank" class="read-more-btn">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="cta">
+          <div class="container">
+            <div class="cta-card">
+              <div class="card-content">
+                <h2 class="h2 card-title"> Your safety is your lifeline</h2>
+
+                <p class="card-text">
+                  Bloom where you're planted; shine where needed.
+                </p>
+              </div>
+
+              <button class="btn cta-btn">
+                <a href="https://ndma.gov.in/Natural-Hazards/Floods" class="read-more-btn">
+                <span>See Data About floods</span>
+                </a>
+
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="./assets/images/2.jpg" width="20%" alt="Homeverse logo" />
+              
+            </a>
+
+            <p class="section-text">
+              All information on this website has been sourced from the internet
+               and is used for informational purposes only
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>LPU,Jalandhar Punjab</address>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+0123456789" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>+91 9555236625</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:contact@homeverse.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>koushalkumaryadav9090@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="social-list">
+              <li>
+                <a href="https://www.facebook.com/Koushalyadav420" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/palak" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/Palak/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              
+            </ul>
+          </div>
+
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Floods</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">About</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">News</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Uttar Pradesh</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Bihar</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Punjab</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">News</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Aaj Tak</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">The Times Of India</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">The Hindu</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">More Info</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Terms & Conditions</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Govt. Helpline number</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Reference</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Wikipedia</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">ChatGPT</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">News</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Print Media</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Team</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Thankyou</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 <a href="#">Team_flood_management</a>. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
